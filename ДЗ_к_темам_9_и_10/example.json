@@ -1,0 +1,62 @@
+{
+  "orders": [
+    {
+      "orderID": "12345",
+      "customerName": "Иван Иванов",
+      "totalPrice": 3200,
+      "items": [
+        {
+          "productID": "A001",
+          "productName": "Ноутбук",
+          "quantity": 2,
+          "price": 800
+        },
+        {
+          "productID": "B002",
+          "productName": "Смартфон",
+          "quantity": 3,
+          "price": 400
+        }
+      ]
+    },
+    {
+      "orderID": "12346",
+      "customerName": "Петр Петров",
+      "totalPrice": 1250,
+      "items": [
+        {
+          "productID": "C003",
+          "productName": "Планшет",
+          "quantity": 1,
+          "price": 600
+        },
+        {
+          "productID": "D004",
+          "productName": "Наушники",
+          "quantity": 4,
+          "price": 150
+        }
+      ]
+    }
+  ],
+  "warehouses": [
+    {
+      "warehouseID": "WH001",
+      "location": "Москва",
+      "capacity": 10000,
+      "currentStock": 7500
+    },
+    {
+      "warehouseID": "WH002",
+      "location": "Санкт-Петербург",
+      "capacity": 8000,
+      "currentStock": 6200
+    },
+    {
+      "warehouseID": "WH003",
+      "location": "Казань",
+      "capacity": 5000,
+      "currentStock": 3100
+    }
+  ]
+}
